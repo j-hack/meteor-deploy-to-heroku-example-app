@@ -1,5 +1,8 @@
 import { Template } from 'meteor/templating';
 import { ReactiveVar } from 'meteor/reactive-var';
+import { Notes } from '../imports/api/notes/notes';
+
+import '../imports/ui/components/Notes/Notes.js';
 
 import './main.html';
 
